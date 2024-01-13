@@ -1,0 +1,130 @@
+/* Apply box-sizing to all elements, reset margin and padding */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(232, 231, 231);
+    text-align: center;
+}
+
+/* Styling for the main heading */
+h1 {
+    margin-top: 97px;
+    margin-bottom: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-weight: 1000;
+}
+
+/* Styling for secondary headings */
+h4 {
+    margin-bottom: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styling for the main container holding login content */
+#box {
+    text-align: center;
+    width: 20%;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    display: flex;
+    box-shadow: 0px 0px 9px 0px black;
+    flex-direction: column;
+}
+
+/* Styling for the "Forgotten password?" link */
+#forgt_pass {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: rgb(49, 49, 252);
+    background-color: white;
+}
+
+/* Styling for the Email input field */
+#Email {
+    background-color: white;
+    height: 35px;
+    border-radius: 4px;
+}
+
+#Email:hover {
+    border-color: rgb(112, 112, 255);
+}
+
+#Email::placeholder {
+    padding: 3px 100px 5px 10px;
+    color: rgb(0, 0, 0);
+}
+
+/* Styling for the Password input field */
+#pass {
+    background-color: white;
+    height: 35px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+#pass:hover {
+    border-color: rgb(112, 112, 255);
+}
+
+#pass::placeholder {
+    padding-right: 65%;
+    color: black;
+}
+
+/* Styling for the Log in button */
+#log_in {
+    margin-top: 10px;
+    border-radius: 4px;
+    height: 35px;
+    background-color: rgb(31, 31, 240);
+    color: white;
+    text-align: center;
+    display: inline-block; /* Ensures the button takes the width of its content */
+    overflow: hidden; /* Ensures the anchor doesn't overflow the button */
+}
+
+/* Styling for the anchor inside the Log in button */
+#log-in {
+    display: block; /* Makes the anchor a block-level element */
+    width: 100%; /* Makes the anchor take the full width of the button */
+    height: 100%; /* Makes the anchor take the full height of the button */
+    text-decoration: none;
+    background-color: rgb(31, 31, 240);
+    color: white;
+    text-align: center;
+    line-height: 35px; /* Centers the text vertically */
+}
+
+/* Styling for the "Create New Account" link */
+#new_accont {
+    margin-top: 15px;
+    text-decoration: none;
+    background-color: rgb(8, 185, 8);
+    color: white;
+    padding: 9px 20px;
+    font-size: small;
+    width: auto;
+    border-radius: 4px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* Styling for the last line of text */
+#last_line {
+    margin-top: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styling for the "Create a Page" link */
+#crt_pg {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
